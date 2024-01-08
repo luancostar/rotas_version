@@ -83,69 +83,12 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button">
                                     <i class="bx bx-customize icon"></i>
-                                    <span data-key="t-apps">Apps</span> <div class="arrow-down"></div>
+                                    <span data-key="t-apps">Acompanhamento</span> <div class="arrow-down"></div>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="topnav-pages">
 
-                                    <a href="apps-calendar.html" class="dropdown-item" data-key="t-calendar">Calendar</a>
-                                    <a href="apps-chat.html" class="dropdown-item" data-key="t-chat">Chat</a>
-                                    <a href="apps-kanban-board.html" class="dropdown-item" data-key="t-kanban">Kanban Board</a>
-                                    <a href="apps-file-manager.html" class="dropdown-item" data-key="t-filemanager">File Manager</a>
-
-                                    <div class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-ecommerce"
-                                            role="button">
-                                            <span data-key="t-ecommerce">Ecommerce</span> <div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-ecommerce">
-                                            <a href="ecommerce-products.html" class="dropdown-item" data-key="t-products">Products</a>
-                                            <a href="ecommerce-product-detail.html" class="dropdown-item" data-key="t-product-detail">Product Detail</a>
-                                            <a href="ecommerce-orders.html" class="dropdown-item" data-key="t-orders">Orders</a>
-                                            <a href="ecommerce-customers.html" class="dropdown-item" data-key="t-customers">Customers</a>
-                                            <a href="ecommerce-cart.html" class="dropdown-item" data-key="t-cart">Cart</a>
-                                            <a href="ecommerce-checkout.html" class="dropdown-item" data-key="t-checkout">Checkout</a>
-                                            <a href="ecommerce-shops.html" class="dropdown-item" data-key="t-shops">Shops</a>
-                                            <a href="ecommerce-add-product.html" class="dropdown-item" data-key="t-add-product">Add Product</a>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-email"
-                                            role="button">
-                                            <span data-key="t-email">Email</span> <div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-email">
-                                            <a href="email-inbox.html" class="dropdown-item" data-key="t-inbox">Inbox</a>
-                                            <a href="email-read.html" class="dropdown-item" data-key="t-read-email">Read Email</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-contact"
-                                            role="button">
-                                        <span data-key="t-contacts">Contacts</span> <div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-contact">
-                                            <a href="contacts-grid.html" class="dropdown-item" data-key="t-user-grid">User Grid</a>
-                                            <a href="contacts-list.html" class="dropdown-item" data-key="t-user-list">User List</a>
-                                            <a href="contacts-settings.html" class="dropdown-item" data-key="t-user-settings">User Settings</a>
-                                        </div>
-                                    </div>
-
-                                    <a href="apps-gallery.html" class="dropdown-item" data-key="t-gallery">Gallery</a>
-
-                            
-                                    <div class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-projects"
-                                            role="button">
-                                        <span data-key="t-projects">Projects</span> <div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-projects">
-                                            <a href="projects-grid.html" class="dropdown-item" data-key="t-p-grid">Projects Grid</a>
-                                            <a href="projects-list.html" class="dropdown-item" data-key="t-p-list">Projects List</a>
-                                            <a href="projects-overview.html" class="dropdown-item" data-key="t-p-overview">Project Overview</a>
-                                            <a href="projects-create.html" class="dropdown-item" data-key="t-create-new">Create New</a>
-                                        </div>
-                                    </div>
+                                    <a href="apps-calendar.html" class="dropdown-item" data-key="t-calendar">Coletas em Tempo Real</a>
+                                    <a href="apps-chat.html" class="dropdown-item" data-key="t-chat">Painel de Fechamento</a>
                                 </div>
                             </li>
 
@@ -153,7 +96,7 @@
                                 <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-components" role="button"
                                 >
                                     <i class="bx bx-layer icon"></i>
-                                    <span data-key="t-components">Components</span> <div class="arrow-down"></div>
+                                    <span data-key="t-components">Coletas</span> <div class="arrow-down"></div>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="topnav-components">
                                     <div class="dropdown">
@@ -312,49 +255,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-error"
-                                            role="button">
-                                            <span data-key="t-error-pages">Error Pages</span> <div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-error">
-                                            <div class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-404"
-                                                    role="button">
-                                                    <span>404</span> <div class="arrow-down"></div>
-                                                </a>
-                                                <div class="dropdown-menu" aria-labelledby="topnav-404">
-                                                    <a href="error-404-basic.html" class="dropdown-item" data-key="t-basic">Basic</a>
-                                                    <a href="error-404-cover.html" class="dropdown-item" data-key="t-cover">Cover</a>
-                                                </div>
-                                            </div>
-                                            <div class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-500"
-                                                    role="button">
-                                                    <span>500</span> <div class="arrow-down"></div>
-                                                </a>
-                                                <div class="dropdown-menu" aria-labelledby="topnav-500">
-                                                    <a href="error-500-basic.html" class="dropdown-item" data-key="t-basic">Basic</a>
-                                                    <a href="error-500-cover.html" class="dropdown-item" data-key="t-cover">Cover</a>
-                                                </div>
-                                            </div>
-                                    
-                                        </div>
-                                    </div>
-                                    <div class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-utility"
-                                            role="button">
-                                            <span data-key="t-utility">Utility</span> <div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-utility">
-                                            <a href="pages-starter.html" class="dropdown-item" data-key="t-starter-page">Starter Page</a>
-                                            <a href="pages-profile.html" class="dropdown-item" data-key="t-profile">Profile</a>
-                                            <a href="pages-maintenance.html" class="dropdown-item" data-key="t-maintenance">Maintenance</a>
-                                            <a href="pages-comingsoon.html" class="dropdown-item" data-key="t-coming-soon">Coming Soon</a>
-                                            <a href="pages-faqs.html" class="dropdown-item" data-key="t-faqs">FAQs</a>
-                                        </div>
-                                    </div>
-
+                                     
                                     <a href="layout-vertical.html" class="dropdown-item" data-key="t-vertical">Vertical</a>
                                 </div>
                             </li>
@@ -368,10 +269,7 @@
 
         <div class="d-flex">
             <div class="dropdown d-inline-block">
-                <button type="button" class="btn header-item noti-icon"
-                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="bx bx-search icon-sm"></i>
-                </button>
+     
                 <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0">
                     <form class="p-2">
                         <div class="search-box">
@@ -385,132 +283,43 @@
             </div>
     
             <div class="dropdown d-inline-block language-switch">
-                <button type="button" class="btn header-item noti-icon"
-                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img id="header-lang-img" src="assets/images/flags/us.jpg" alt="Header Language" height="16">
-                </button>
-                <div class="dropdown-menu dropdown-menu-end">
-            
-                    <!-- item-->
-                    <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="eng">
-                        <img src="assets/images/flags/us.jpg" alt="user-image" class="me-2" height="12"> <span class="align-middle">English</span>
-                    </a>
-                    <!-- item-->
-                    <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sp">
-                        <img src="assets/images/flags/spain.jpg" alt="user-image" class="me-2" height="12"> <span class="align-middle">Spanish</span>
-                    </a>
-
-                    <!-- item-->
-                    <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="gr">
-                        <img src="assets/images/flags/germany.jpg" alt="user-image" class="me-2" height="12"> <span class="align-middle">German</span>
-                    </a>
-
-                    <!-- item-->
-                    <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="it">
-                        <img src="assets/images/flags/italy.jpg" alt="user-image" class="me-2" height="12"> <span class="align-middle">Italian</span>
-                    </a>
-
-                    <!-- item-->
-                    <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ru">
-                        <img src="assets/images/flags/russia.jpg" alt="user-image" class="me-2" height="12"> <span class="align-middle">Russian</span>
-                    </a>
-                </div>
+         
             </div>
 
             <div class="dropdown d-inline-block">
                 <button type="button" class="btn header-item noti-icon" id="page-header-notifications-dropdown"
                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="bx bx-bell icon-sm"></i>
-                    <span class="noti-dot bg-danger rounded-pill">3</span>
+                    <span class="noti-dot bg-danger rounded-pill">1</span>
                 </button>
                 <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
                     aria-labelledby="page-header-notifications-dropdown">
                     <div class="p-3">
                         <div class="row align-items-center">
                             <div class="col">
-                                <h5 class="m-0 font-size-15"> Notifications </h5>
+                                <h5 class="m-0 font-size-15"> Últimas Atualizações </h5>
                             </div>
                             <div class="col-auto">
-                                <a href="javascript:void(0);" class="small"> Mark all as read</a>
+                                <a href="javascript:void(0);" class="small">  </a>
                             </div>
                         </div>
                     </div>
                     <div data-simplebar style="max-height: 250px;">
-                        <h6 class="dropdown-header bg-light">New</h6>
+ 
                         <a href="" class="text-reset notification-item">
                             <div class="d-flex border-bottom align-items-start">
-                                <div class="flex-shrink-0">
-                                    <img src="assets/images/users/avatar-3.jpg"
-                                    class="me-3 rounded-circle avatar-sm" alt="user-pic">
-                                </div>
+                   
                                 <div class="flex-grow-1">
-                                    <h6 class="mb-1">Justin Verduzco</h6>
+                                    <h6 class="mb-1">Atualizações</h6>
                                     <div class="text-muted">
-                                        <p class="mb-1 font-size-13">Your task changed an issue from "In Progress" to <span class="badge badge-soft-success">Review</span></p>
+                                        <p class="mb-1 font-size-13">Foi implementado um novo layout com foco na experiência do usuário<span class="badge badge-soft-success">documentação do update</span></p>
                                         <p class="mb-0 font-size-10 text-uppercase fw-bold"><i class="mdi mdi-clock-outline"></i> 1 hours ago</p>
                                     </div>
                                 </div>
                             </div>
                         </a>
-                        <a href="" class="text-reset notification-item">
-                            <div class="d-flex border-bottom align-items-start">
-                                <div class="flex-shrink-0">
-                                    <div class="avatar-sm me-3">
-                                        <span class="avatar-title bg-primary rounded-circle font-size-16">
-                                            <i class="uil-shopping-basket"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="flex-grow-1">
-                                    <h6 class="mb-1">New order has been placed</h6>
-                                    <div class="text-muted">
-                                        <p class="mb-1 font-size-13">Open the order confirmation or shipment confirmation.</p>
-                                        <p class="mb-0 font-size-10 text-uppercase fw-bold"><i class="mdi mdi-clock-outline"></i> 5 hours ago</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <h6 class="dropdown-header bg-light">Earlier</h6>
-                        <a href="" class="text-reset notification-item">
-                            <div class="d-flex border-bottom align-items-start">
-                                <div class="flex-shrink-0">
-                                    <div class="avatar-sm me-3">
-                                        <span class="avatar-title bg-soft-success text-success rounded-circle font-size-16">
-                                            <i class="uil-truck"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="flex-grow-1">
-                                    <h6 class="mb-1">Your item is shipped</h6>
-                                    <div class="text-muted">
-                                        <p class="mb-1 font-size-13">Here is somthing that you might light like to know.</p>
-                                        <p class="mb-0 font-size-10 text-uppercase fw-bold"><i class="mdi mdi-clock-outline"></i> 1 day ago</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="" class="text-reset notification-item">
-                            <div class="d-flex border-bottom align-items-start">
-                                <div class="flex-shrink-0">
-                                    <img src="assets/images/users/avatar-4.jpg"
-                                        class="me-3 rounded-circle avatar-sm" alt="user-pic">
-                                </div>
-                                <div class="flex-grow-1">
-                                    <h6 class="mb-1">Salena Layfield</h6>
-                                    <div class="text-muted">
-                                        <p class="mb-1 font-size-13">Yay ! Everything worked!</p>
-                                        <p class="mb-0 font-size-10 text-uppercase fw-bold"><i class="mdi mdi-clock-outline"></i> 3 days ago</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
                     </div>
-                    <div class="p-2 border-top d-grid">
-                        <a class="btn btn-sm btn-link font-size-14 btn-block text-center" href="javascript:void(0)">
-                            <i class="uil-arrow-circle-right me-1"></i> <span>View More..</span>
-                        </a>
-                    </div>
+                    
                 </div>
             </div>
 
@@ -526,7 +335,7 @@
                     <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-3.jpg"
                     alt="Header Avatar">
                     <span class="ms-2 d-none d-xl-inline-block user-item-desc">
-                        <span class="user-name">Marie N. <i class="mdi mdi-chevron-down"></i></span>
+                        <span class="user-name">Usuário<i class="mdi mdi-chevron-down"></i></span>
                     </span>
                 </button>
                 <div class="dropdown-menu dropdown-menu-end pt-0">

@@ -3,7 +3,7 @@
         <div data-simplebar class="h-100">
             <div class="rightbar-title d-flex align-items-center p-3">
 
-                <h5 class="m-0 me-2">Theme Customizer</h5>
+                <h5 class="m-0 me-2">Preferências do Usuário</h5>
 
                 <a href="javascript:void(0);" class="right-bar-toggle-close ms-auto">
                     <i class="mdi mdi-close noti-icon"></i>
@@ -26,17 +26,17 @@
                     <label class="form-check-label" for="layout-horizontal">Horizontal</label>
                 </div>
 
-                <h6 class="mt-4 mb-3">Layout Mode</h6>
+                <h6 class="mt-4 mb-3">Tema de Exibição</h6>
 
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="layout-mode"
                         id="layout-mode-light" value="light">
-                    <label class="form-check-label" for="layout-mode-light">Light</label>
+                    <label class="form-check-label" for="layout-mode-light">Claro</label>
                 </div>
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="layout-mode"
                         id="layout-mode-dark" value="dark">
-                    <label class="form-check-label" for="layout-mode-dark">Dark</label>
+                    <label class="form-check-label" for="layout-mode-dark">Escuro</label>
                 </div>
 
                 <h6 class="mt-4 mb-3">Layout Width</h6>
@@ -52,18 +52,7 @@
                     <label class="form-check-label" for="layout-width-boxed">Boxed</label>
                 </div>
 
-                <h6 class="mt-4 mb-3">Topbar Color</h6>
-
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="topbar-color"
-                        id="topbar-color-light" value="light" onchange="document.body.setAttribute('data-topbar', 'light')">
-                    <label class="form-check-label" for="topbar-color-light">Light</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="topbar-color"
-                        id="topbar-color-dark" value="dark" onchange="document.body.setAttribute('data-topbar', 'dark')">
-                    <label class="form-check-label" for="topbar-color-dark">Dark</label>
-                </div>
+               
 
                 <div id="sidebar-setting">
                 <h6 class="mt-4 mb-3 sidebar-setting">Sidebar Size</h6>

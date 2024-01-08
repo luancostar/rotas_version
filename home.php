@@ -15,7 +15,11 @@
     <!-- <------------------------------HEADER-------------------->  
     <?php include 'components/header.php';?>
     
+
+
+    <!-------------------------- BARRA DE CUSTOMIZAÇÃO -------------->
     <?php include 'components/custom-bar.php';?>
+    
         <div class="hori-overlay"></div>
     
 
