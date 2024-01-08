@@ -99,78 +99,11 @@
                                     <span data-key="t-components">Coletas</span> <div class="arrow-down"></div>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="topnav-components">
+                                     
                                     <div class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-form"
-                                            role="button">
-                                            <span data-key="t-forms">Forms</span> <div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-form">
-                                            <a href="form-elements.html" class="dropdown-item" data-key="t-basic-elements">Basic Elements</a>
-                                            <a href="form-validation.html" class="dropdown-item" data-key="t-validation">Validation</a>
-                                            <a href="form-advanced.html" class="dropdown-item" data-key="t-advanced-plugins">Advanced Plugins</a>
-                                            <a href="form-editors.html" class="dropdown-item" data-key="t-editors">Editors</a>
-                                            <a href="form-uploads.html" class="dropdown-item" data-key="t-file-upload">File Upload</a>
-                                            <a href="form-wizard.html" class="dropdown-item" data-key="t-wizard">Wizard</a>
-                                            <a href="form-mask.html" class="dropdown-item" data-key="t-mask">Mask</a>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-table"
-                                            role="button">
-                                            <span data-key="t-tables">Tables</span> <div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-table">
-                                            <a href="tables-basic.html" class="dropdown-item" data-key="t-bootstrap-basic">Bootstrap Basic</a>
-                                            <a href="tables-advanced.html" class="dropdown-item" data-key="t-advanced-tables">Advance Tables</a>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-charts"
-                                            role="button">
-                                            <span data-key="t-apex-charts">Apex Charts</span> <div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-charts">
-                                            <a href="charts-line.html" class="dropdown-item" data-key="t-line">Line</a>
-                                            <a href="charts-area.html" class="dropdown-item" data-key="t-area">Area</a>
-                                            <a href="charts-column.html" class="dropdown-item" data-key="t-column">Column</a>
-                                            <a href="charts-bar.html" class="dropdown-item" data-key="t-bar">Bar</a>
-                                            <a href="charts-mixed.html" class="dropdown-item" data-key="t-mixed">Mixed</a>
-                                            <a href="charts-timeline.html" class="dropdown-item" data-key="t-timeline">Timeline</a>
-                                            <a href="charts-candlestick.html" class="dropdown-item" data-key="t-candlestick">Candlestick</a>
-                                            <a href="charts-boxplot.html" class="dropdown-item" data-key="t-boxplot">Boxplot</a>
-                                            <a href="charts-bubble.html" class="dropdown-item" data-key="t-bubble">Bubble</a>
-                                            <a href="charts-scatter.html" class="dropdown-item" data-key="t-scatter">Scatter</a>
-                                            <a href="charts-heatmap.html" class="dropdown-item" data-key="t-heatmap">Heatmap</a>
-                                            <a href="charts-treemap.html" class="dropdown-item" data-key="t-treemap">Treemap</a>
-                                            <a href="charts-pie.html" class="dropdown-item" data-key="t-pie">Pie</a>
-                                            <a href="charts-radialbar.html" class="dropdown-item" data-key="t-radialbar">Radialbar</a>
-                                            <a href="charts-radar.html" class="dropdown-item" data-key="t-radar">Radar</a>
-                                            <a href="charts-polararea.html" class="dropdown-item" data-key="t-polararea">Polararea</a>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-icons"
-                                            role="button">
-                                            <span data-key="t-icons">Icons</span> <div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-icons">
-                                            <a href="icons-unicons.html" class="dropdown-item" data-key="t-unicons">Unicons</a>
-                                            <a href="icons-feathericons.html" class="dropdown-item" data-key="t-feather-icons">Feather icons</a>
-                                            <a href="icons-boxicons.html" class="dropdown-item" data-key="t-boxicons">Boxicons</a>
-                                            <a href="icons-materialdesign.html" class="dropdown-item" data-key="t-material-design">Material Design</a>
-                                            <a href="icons-fontawesome.html" class="dropdown-item" data-key="t-font-awesome">Font Awesome 5</a>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-map"
-                                            role="button">
-                                            <span data-key="t-maps">Maps</span> <div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-map">
-                                            <a href="maps-google.html" class="dropdown-item" data-key="t-google">Google</a>
-                                            <a href="maps-vector.html" class="dropdown-item" data-key="t-vector">Vector</a>
-                                            <a href="maps-leaflet.html" class="dropdown-item" data-key="t-leaflet">Leaflet</a>
-                                        </div>
+                                    <a href="apps-calendar.html" class="dropdown-item" data-key="t-calendar">Listar Coletas</a>
+                                    <a href="apps-calendar.html" class="dropdown-item" data-key="t-calendar">Nova Coleta</a>
+                                        
                                     </div>
                                 </div>
                             </li>
@@ -179,85 +112,9 @@
                                 <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-more" role="button"
                                 >
                                     <i class="bx bx-file icon"></i>
-                                    <span data-key="t-pages">Pages</span> <div class="arrow-down"></div>
+                                    <span data-key="t-pages">Romaneio</span> 
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="topnav-more">
-                                    <div class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-pricing"
-                                            role="button">
-                                            <span data-key="t-pricing">Pricing</span> <div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-pricing">
-                                            <a href="pricing-basic.html" class="dropdown-item" data-key="t-basic">Basic</a>
-                                            <a href="pricing-table.html" class="dropdown-item" data-key="t-table">table</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-invoices"
-                                            role="button">
-                                            <span data-key="t-invoices">Invoices</span> <div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-invoices">
-                                            <a href="invoices-list.html" class="dropdown-item" data-key="t-invoice-list">Invoice List</a>
-                                            <a href="invoices-detail.html" class="dropdown-item" data-key="t-invoice-detail">Invoice Detail</a>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-timeline"
-                                            role="button">
-                                            <span data-key="t-timeline">Timeline</span> <div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-timeline">
-                                            <a href="timeline-center.html" class="dropdown-item" data-key="t-center-view">Center View</a>
-                                            <a href="timeline-left.html" class="dropdown-item" data-key="t-left-view">Left View</a>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-auth"
-                                            role="button">
-                                            <span data-key="t-authentication">Authentication</span> <div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-auth">
-                                            <div class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-auth-basic"
-                                                    role="button">
-                                                    <span data-key="t-basic">Basic</span> <div class="arrow-down"></div>
-                                                </a>
-                                                <div class="dropdown-menu" aria-labelledby="topnav-auth-basic">
-                                                    <a href="auth-signin-basic.html" class="dropdown-item" data-key="t-signin">Sign In</a>
-                                                    <a href="auth-signup-basic.html" class="dropdown-item" data-key="t-signup">Sign Up</a>
-                                                    <a href="auth-signout-basic.html" class="dropdown-item" data-key="t-signout">Sign Out</a>
-                                                    <a href="auth-lockscreen-basic.html" class="dropdown-item" data-key="t-lock-screen">Lock Screen</a>
-                                                    <a href="auth-forgotpassword-basic.html" class="dropdown-item" data-key="t-forgot-password">Forgot Password</a>
-                                                    <a href="auth-resetpassword-basic.html" class="dropdown-item" data-key="t-reset-password">Reset Password</a>
-                                                    <a href="auth-emailverification-basic.html" class="dropdown-item" data-key="t-email-verification">Email Verification</a>
-                                                    <a href="auth-2step-basic.html" class="dropdown-item" data-key="t-2step-verification">2-step Verification</a>
-                                                    <a href="auth-thankyou-basic.html" class="dropdown-item" data-key="t-thankyou">Thank you</a>
-                                                </div>
-                                            </div>
-                                            <div class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-auth-cover"
-                                                    role="button">
-                                                    <span data-key="t-cover">Cover</span> <div class="arrow-down"></div>
-                                                </a>
-                                                <div class="dropdown-menu" aria-labelledby="topnav-auth-cover">
-                                                    <a href="auth-signin-cover.html" class="dropdown-item" data-key="t-signin">Sign In</a>
-                                                    <a href="auth-signup-cover.html" class="dropdown-item" data-key="t-signup">Sign Up</a>
-                                                    <a href="auth-signout-cover.html" class="dropdown-item" data-key="t-signout">Sign Out</a>
-                                                    <a href="auth-lockscreen-cover.html" class="dropdown-item" data-key="t-lock-screen">Lock Screen</a>
-                                                    <a href="auth-forgotpassword-cover.html" class="dropdown-item" data-key="t-forgot-password">Forgot Password</a>
-                                                    <a href="auth-resetpassword-cover.html" class="dropdown-item" data-key="t-reset-password">Reset Password</a>
-                                                    <a href="auth-emailverification-cover.html" class="dropdown-item" data-key="t-email-verification">Email Verification</a>
-                                                    <a href="auth-2step-cover.html" class="dropdown-item" data-key="t-2step-verification">2-step Verification</a>
-                                                    <a href="auth-thankyou-cover.html" class="dropdown-item" data-key="t-thankyou">Thank you</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                     
-                                    <a href="layout-vertical.html" class="dropdown-item" data-key="t-vertical">Vertical</a>
-                                </div>
+                                
                             </li>
 
                         </ul>
