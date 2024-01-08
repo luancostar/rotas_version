@@ -4,11 +4,11 @@
             <!-- LOGO -->
             <div class="navbar-brand-box">
                 <a href="index.html" class="logo logo-dark">
-                    <span class="logo-sm">
+                <span class="logo-sm">
                         <img src="assets/images/logo-sm.svg" alt="" height="26">
                     </span>
-                    <span class="logo-lg">
-                        <img src="assets/images/logo-sm.svg" alt="" height="26"> <span class="logo-txt">Vuesy</span>
+                    <span class="logo-lg  ">
+                        <img src="assets/images/logo.png" alt="" height="30"> <span class="logo-txt">ROTAS</span>
                     </span>
                 </a>
 
@@ -112,7 +112,7 @@
                                 <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-more" role="button"
                                 >
                                     <i class="bx bx-file icon"></i>
-                                    <span data-key="t-pages">Romaneio</span> 
+                                    <span data-key="t-pages">Roteirização</span> 
                                 </a>
                                 
                             </li>
@@ -139,8 +139,18 @@
                 </div>
             </div>
     
-            <div class="dropdown d-inline-block language-switch">
-         
+            <div class="dropdown d-inline-block">
+            <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="layout-mode"
+                        id="layout-mode-light" value="light">
+                    <label class="form-check-label" for="layout-mode-light">Claro</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="layout-mode"
+                        id="layout-mode-dark" value="dark">
+                    <label class="form-check-label" for="layout-mode-dark">Escuro</label>
+                </div>
+            </div>
             </div>
 
             <div class="dropdown d-inline-block">
@@ -180,7 +190,7 @@
                 </div>
             </div>
 
-            <div class="dropdown d-inline-block">
+            <div class="dropdown d-none">
                 <button type="button" class="btn header-item noti-icon right-bar-toggle" id="right-bar-toggle">
                     <i class="bx bx-cog icon-sm"></i>
                 </button>
@@ -229,48 +239,42 @@
                 <div class="col-xl-12">
                     <div class="card dash-header-box shadow-none border-0">
                         <div class="card-body p-0">
-                            <div class="row row-cols-xxl-6 row-cols-md-3 row-cols-1 g-0">
+                            <div class="row row-cols-xxl-5 row-cols-md-3 row-cols-1 g-0">
                                 <div class="col">
                                     <div class="mt-md-0 py-3 px-4 mx-2">
-                                        <p class="text-white-50 mb-2 text-truncate">Campaign Sent </p>
+                                        <p class="text-white-50 mb-2 text-truncate">Coletas Registradas</p>
                                         <h3 class="text-white mb-0">197</h3>
                                     </div>
                                 </div><!-- end col -->
 
                                 <div class="col">
                                     <div class="mt-3 mt-md-0 py-3 px-4 mx-2">
-                                        <p class="text-white-50 mb-2 text-truncate">Annual Profit</p>
-                                        <h3 class="text-white mb-0">$489.4k</h3>
+                                        <p class="text-white-50 mb-2 text-truncate">Coletas Automáticas</p>
+                                        <h3 class="text-white mb-0">50</h3>
                                     </div>
                                 </div><!-- end col -->
 
                                 <div class="col">
                                     <div class="mt-3 mt-md-0 py-3 px-4 mx-2">
-                                        <p class="text-white-50 mb-2 text-truncate">Lead Coversation</p>
-                                        <h3 class="text-white mb-0">32.89%</h3>
+                                        <p class="text-white-50 mb-2 text-truncate">Coletas Manuais</p>
+                                        <h3 class="text-white mb-0">60</h3>
                                     </div>
                                 </div><!-- end col -->
 
                                 <div class="col">
+                                    <div class="mt-3 mt-lg-0 py-3 px-4 mx-2">
+                                        <p class="text-white-50 mb-2 text-truncate">Não Coletados Geral</p>
+                                        <h3 class="text-white mb-0">9</h3>
+                                    </div>
+                                </div><!-- end col -->
+   
+                                <div class="col ">
                                     <div class="mt-3 mt-md-0 py-3 px-4 mx-2">
-                                        <p class="text-white-50 mb-2 text-truncate">Sales Forecast</p>
+                                        <p class="text-white-50 mb-2 text-truncate">Realizadas Capital</p>
                                         <h3 class="text-white mb-0">75.35%</h3>
                                     </div>
                                 </div><!-- end col -->
-
-                                <div class="col">
-                                    <div class="mt-3 mt-lg-0 py-3 px-4 mx-2">
-                                        <p class="text-white-50 mb-2 text-truncate">Daily Average Income</p>
-                                        <h3 class="text-white mb-0">$1,596.5</h3>
-                                    </div>
-                                </div><!-- end col -->
-
-                                <div class="col">
-                                    <div class="mt-3 mt-lg-0 py-3 px-4 mx-2">
-                                        <p class="text-white-50 mb-2 text-truncate">Annual Deals</p>
-                                        <h3 class="text-white mb-0">2,659</h3>
-                                    </div>
-                                </div><!-- end col -->
+                                
 
                             </div><!-- end row -->
                         </div><!-- end card body -->

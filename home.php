@@ -5,7 +5,7 @@
    
 
     
-    <body data-layout="horizontal" data-topbar="dark">
+    <body data-layout="horizontal" data-topbar="light">
 
     <!-- <body data-layout="horizontal"> -->
 
@@ -19,7 +19,7 @@
 
     <!-------------------------- BARRA DE CUSTOMIZAÇÃO -------------->
     <?php include 'components/custom-bar.php';?>
-    
+
         <div class="hori-overlay"></div>
     
 
@@ -494,146 +494,7 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-xl-5">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-start">
-                                        <div class="flex-grow-1">
-                                            <h5 class="card-title">Best Selling Product</h5>
-                                        </div>
-                                    </div>
-
-                                    <div class="slider mt-4">
-                                        <!-- Add Pagination -->
-                                        <div class="swiper-button-next"><i class="mdi mdi-arrow-right"></i></div>
-                                        <div class="swiper-button-prev"><i class="mdi mdi-arrow-left"></i></div>
-                                        
-                                        <div class="swiper-container">
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide">
-                                                    <div class="card dash-product-box shadow-none border mb-0">
-                                                        <div class="card-body">
-                                                            <div class="pricing-badge">
-                                                                <span class="badge bg-success">Sale</span>
-                                                            </div>
-                                                           <div class="dash-product-img">
-                                                             <img src="assets/images/product/img-1.png" class="img-fluid" alt="">
-                                                           </div>
-    
-                                                            <h5 class="font-size-17 mt-1">
-                                                                <a href="ecommerce-product-detail.html" class="text-dark lh-base">Stylish Cricket & Walking Light Weight Shoes</a>
-                                                            </h5>
-    
-                                                            <h5 class="font-size-20 text-primary mt-3 mb-0"><del class="font-size-17 text-muted fw-normal me-1">$280</del> $140.00</h5>
-    
-                                                            <div class="font-size-16">
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star-half-full text-warning"></i>
-                                                            </div>
-    
-                                                            <div class="mt-4">
-                                                                <a href="ecommerce-product-detail.html" class="btn btn-primary btn-sm w-lg"><i class="mdi mdi-cart me-1 align-middle"></i> Buy
-                                                                    Now</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-            
-                                                <div class="swiper-slide">
-                                                    <div class="card dash-product-box shadow-none border mb-0">
-                                                        <div class="card-body">
-                                                            <div class="dash-product-img">
-                                                                <img src="assets/images/product/img-2.png" class="img-fluid" alt="">
-                                                              </div>
-       
-                                                               <h5 class="font-size-17 mt-1">
-                                                                   <a href="ecommerce-product-detail.html" class="text-dark lh-base">Combo Pack of 2 Sports Shoes Running Shoes</a>
-                                                               </h5>
-       
-                                                               <h5 class="font-size-20 text-primary mt-3 mb-0"><del class="font-size-17 text-muted fw-normal me-1">$320</del> $280.00</h5>
-       
-                                                               <div class="font-size-16">
-                                                                   <i class="mdi mdi-star text-warning"></i>
-                                                                   <i class="mdi mdi-star text-warning"></i>
-                                                                   <i class="mdi mdi-star text-warning"></i>
-                                                                   <i class="mdi mdi-star text-warning"></i>
-                                                               </div>
-       
-                                                               <div class="mt-4">
-                                                                   <a href="ecommerce-product-detail.html" class="btn btn-primary btn-sm w-lg"><i class="mdi mdi-cart me-1 align-middle"></i> Buy
-                                                                       Now</a>
-                                                               </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-            
-                                                <div class="swiper-slide">
-                                                    <div class="card dash-product-box shadow-none border mb-0">
-                                                          <div class="card-body">
-                                                            <div class="dash-product-img">
-                                                                <img src="assets/images/product/img-3.png" class="img-fluid" alt="">
-                                                              </div>
-       
-                                                               <h5 class="font-size-17 mt-1">
-                                                                   <a href="ecommerce-product-detail.html" class="text-dark lh-base">Trendy Men Sports Running Running Shoes</a>
-                                                               </h5>
-      
-                                                               <h5 class="font-size-20 text-primary mt-3 mb-0"><del class="font-size-17 text-muted fw-normal me-1">$740</del> $520.00</h5>
-      
-                                                               <div class="font-size-16">
-                                                                   <i class="mdi mdi-star text-warning"></i>
-                                                                   <i class="mdi mdi-star text-warning"></i>
-                                                                   <i class="mdi mdi-star text-warning"></i>
-                                                                   <i class="mdi mdi-star-half-full text-warning"></i>
-                                                               </div>
-       
-                                                               <div class="mt-4">
-                                                                   <a href="ecommerce-product-detail.html" class="btn btn-primary btn-sm w-lg"><i class="mdi mdi-cart me-1 align-middle"></i> Buy
-                                                                       Now</a>
-                                                               </div>
-                                                          </div>
-                                                     </div>
-                                                </div>
-
-                                                <div class="swiper-slide">
-                                                    <div class="card dash-product-box shadow-none border mb-0">
-                                                          <div class="card-body">
-                                                            <div class="dash-product-img">
-                                                                <img src="assets/images/product/img-6.png" class="img-fluid" alt="">
-                                                              </div>
-       
-                                                               <h5 class="font-size-17 mt-1">
-                                                                   <a href="ecommerce-product-detail.html" class="text-dark lh-base">Sneakers For Women Sports Running Shoes (Blue)</a>
-                                                               </h5>
-      
-                                                               <h5 class="font-size-20 text-primary mt-3 mb-0"><del class="font-size-17 text-muted fw-normal me-1">$530</del> $420.00</h5>
-      
-                                                               <div class="font-size-16">
-                                                                   <i class="mdi mdi-star text-warning"></i>
-                                                                   <i class="mdi mdi-star text-warning"></i>
-                                                                   <i class="mdi mdi-star text-warning"></i>
-                                                                   <i class="mdi mdi-star-half-full text-warning"></i>
-                                                               </div>
-       
-                                                               <div class="mt-4">
-                                                                   <a href="ecommerce-product-detail.html" class="btn btn-primary btn-sm w-lg"><i class="mdi mdi-cart me-1 align-middle"></i> Buy
-                                                                       Now</a>
-                                                               </div>
-                                                          </div>
-                                                     </div>
-                                                </div>
-                                            </div>
-                                         
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- end row -->
+ 
 
                     <div class="row">
                         <div class="col-xl-4">
