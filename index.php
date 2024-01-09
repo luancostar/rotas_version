@@ -1,7 +1,24 @@
 <!doctype html>
 <html lang="en">
 
-<?php include 'components/head.php';?>
+<head>
+        
+        <meta charset="utf-8" />
+        <title>ROTAS - TMS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="Themesdesign" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="src/assets/images/logo.png">
+
+        <!-- Bootstrap Css -->
+        <link href="src/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="src/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="src/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+    </head>
 
 
     <body class="bg-login">
@@ -15,7 +32,7 @@
                                     <div class="pb-3">
                                         <a href="index.html">
                                             <span class="d-flex align-items-center justify-content-center logo-lg">
-                                                <img src="assets/images/logo.png" alt="" height="30"> <span class="logo-txt">ROTAS</span>
+                                                <img src="src/assets/images/logo.png" alt="" height="30"> <span class="logo-txt">ROTAS</span>
                                             </span>
                                         </a>
                                         <p class="logo-text-p text-black font-size-14 w-75 mx-auto mt-3 mb-0"> Roteirização e acompanhamento de coletas </p>
@@ -39,7 +56,7 @@
                                         <div class="card-body">
                                             <div class="px-3 py-3">
                                                 <div class="text-center">
-                                            <img width="100px" src="assets/images/logo.png" alt="">
+                                            <img width="100px" src="src/assets/images/logo.png" alt="">
 
                                                     <h1 class="logo-name-text mb-0">ROTAS</h1>
                                                     <p class="text-muted mt-2"></p>
@@ -92,12 +109,12 @@
         <!-- end authentication section -->
 
         <!-- JAVASCRIPT -->
-        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/libs/metismenujs/metismenujs.min.js"></script>
-        <script src="assets/libs/simplebar/simplebar.min.js"></script>
-        <script src="assets/libs/feather-icons/feather.min.js"></script>
+        <script src="src/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="src/assets/libs/metismenujs/metismenujs.min.js"></script>
+        <script src="src/assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="src/assets/libs/feather-icons/feather.min.js"></script>
 
-        <script src="assets/js/pages/pass-addon.init.js"></script>
+        <script src="src/assets/js/pages/pass-addon.init.js"></script>
 
     </body>
 </html>
