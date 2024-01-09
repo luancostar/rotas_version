@@ -29,8 +29,8 @@
         <!-- ============================================================== -->
         <div class="main-content">
             <div class="page-content">
-                <div class="container-fluid">
-                    
+                <div class="w-100 container-fluid">
+
                 <?php include 'components/table.php';?>
            
                        
