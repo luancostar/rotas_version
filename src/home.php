@@ -1,10 +1,18 @@
+<?php
+require_once 'database/index.php';
+session_start();
+
+if (!isset($_SESSION['logado_roteirizador'])) {
+    header('Location: ../index.php');
+}
+?>
+
+
 <!doctype html>
 <html lang="en">
 
 <?php include 'components/head.php';?>
    
-
-    
     <body data-layout="horizontal" data-topbar="light">
 
     <!-- <body data-layout="horizontal"> -->
@@ -766,20 +774,7 @@
             </div>
             <!-- End Page-content -->
 
-            <footer class="footer">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <script>document.write(new Date().getFullYear())</script> &copy; Vuesy.
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="text-sm-end d-none d-sm-block">
-                                Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="https://1.envato.market/themesdesign" target="_blank">Themesdesign</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+       
         </div>
         <!-- end main content-->
 
@@ -793,6 +788,7 @@
     <div class="rightbar-overlay"></div>
 
     <!-- JAVASCRIPT -->
+    <?php include 'components/footer.php';?>
     
     <?php include 'components/scripts.php';?>
  

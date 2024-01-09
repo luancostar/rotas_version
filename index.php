@@ -1,3 +1,8 @@
+<?php
+session_start();
+?>
+
+
 <!doctype html>
 <html lang="en">
 
@@ -61,16 +66,16 @@
                                                     <h1 class="logo-name-text mb-0">ROTAS</h1>
                                                     <p class="text-muted mt-2"></p>
                                                 </div>
-                                                <form class="mt-4 pt-2">
+                                                <form method="POST" action="src/functions/autenticarUsuario.php" class="mt-4 pt-2">
                                                     <div class="form-floating form-floating-custom mb-3">
-                                                        <input type="text" class="form-control" id="input-username" placeholder="Enter User Name">
-                                                        <label for="input-username">Usário</label>
+                                                        <input type="text" class="form-control"  name="email"  id="input-username" placeholder="Insira email">
+                                                        <label for="input-username">Usuário</label>
                                                         <div class="form-floating-icon">
                                                             <i class="uil uil-users-alt"></i>
                                                         </div>
                                                     </div>
                                                     <div class="form-floating form-floating-custom mb-3 auth-pass-inputgroup">
-                                                        <input type="password" class="form-control" id="password-input" placeholder="Enter Password">
+                                                        <input name="password" type="password" class="form-control" id="password-input" placeholder="Insira sua senha">
                                                         <button type="button" class="btn btn-link position-absolute h-100 end-0 top-0" id="password-addon">
                                                             <i class="mdi mdi-eye-outline font-size-18 text-muted"></i>
                                                         </button>
@@ -88,7 +93,14 @@
                                                            Lembrar de mim
                                                         </label>
                                                     </div>
-                
+                                                    <?php
+                                                    if (isset($_SESSION['erros_login'])) {
+                                                        foreach ($_SESSION['erros_login'] as $erro) {
+                                                        echo '<strong>' . $erro . '</strong> <br>';
+                                                        }
+                                                        unset($_SESSION['erros_login']);
+                                                    }
+                                                    ?>
                                                     <div class="mt-3">
                                                         <button class="btn btn-primary w-100" type="submit">Logar</button>
                                                     </div>

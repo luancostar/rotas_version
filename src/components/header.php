@@ -33,7 +33,7 @@
                     <div class="collapse navbar-collapse" id="topnav-menu-content">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link dropdown-toggle arrow-none" href="index.html" id="topnav-dashboard" role="button"
+                                <a class="nav-link dropdown-toggle arrow-none" href="home.php" id="topnav-dashboard" role="button"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i class="bx bx-home-circle icon"></i>
                                     <span data-key="t-dashboard">Home</span>
@@ -102,7 +102,7 @@
                                 <div class="dropdown-menu" aria-labelledby="topnav-components">
                                      
                                     <div class="dropdown">
-                                    <a href="apps-calendar.html" class="dropdown-item" data-key="t-calendar">Listar Coletas</a>
+                                    <a href="listar_coletas.php" class="dropdown-item" data-key="t-calendar">Listar Coletas</a>
                                     <a href="apps-calendar.html" class="dropdown-item" data-key="t-calendar">Nova Coleta</a>
                                         
                                     </div>
