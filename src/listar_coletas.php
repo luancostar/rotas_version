@@ -188,6 +188,8 @@ $resultado_coletas_automaticas = mysqli_query($db, $sql_coletas_automaticas);
 $dados_coletas_automaticas = mysqli_fetch_array($resultado_coletas_automaticas);
 $coletasAutomaticas = $dados_coletas_automaticas['count(id)'];
 
+ 
+
 ?>
 
 <!doctype html>

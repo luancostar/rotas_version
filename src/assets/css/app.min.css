@@ -192,6 +192,30 @@
     -webkit-box-shadow:0 2px 3px rgba(52,58,64,.06);
     box-shadow:0 2px 3px rgba(52,58,64,.06)
 }
+.destacado {
+    background: #20b120 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+  }
+ 
+  .destacado1 {
+    background: red !important;
+    color: #fff !important;
+    font-weight: bold !important;
+  }
+
+  .destacado2 {
+    background: yellow ! important;
+    color: #000 !important;
+    font-weight: bold !important;
+  }
+
+  .destacado3 {
+    background: orange ! important;
+    color: #000 !important;
+    font-weight: bold !important;
+  }
+
 .bg-login{
     background-image: url(../images/truck.jpg);
     background-size: contain;

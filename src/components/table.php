@@ -1,27 +1,58 @@
 
  
           
-      <form action="../../../functions/relatorios_excel/coletas.php" method="post">
-        <input type="hidden" name="data_inicial" value="<?= $data_inicial ?>">
-        <input type="hidden" name="data_final" value="<?= $data_final ?>">
-        <button style="margin-left:15px; display: flex;align-items: center;width: fit-content;justify-content: center;" type="submit" class="btn btn-primary">Exportar relatório</button>
-      </form>
-    </div>
-  </div>
-  <br>
-  <form style="margin-left: 10px;" action="" method="post">
-    DE: <input type="date" name="data_inicial" value="<?= $data_inicial ?>">
-    ATÉ: <input type="date" name="data_final" value="<?= $data_final ?>">
-
-    <button class="btn btn-primary" type="submit">Buscar</button>
+  <form action="functions/relatorios_excel/coletas.php" method="post">
+    <input type="hidden" name="data_inicial" value="<?= $data_inicial ?>">
+    <input type="hidden" name="data_final" value="<?= $data_final ?>">
+    <button style=" display: flex;align-items: center;width: fit-content;justify-content: center;" type="submit" class="btn btn-success"><i class="bx bx-file icon"></i> Exportar Relatório</button>
   </form>
+ 
+  <br>
+  <div class="d-flex md-12">
+  <form class="d-flex align-items-baseline"  action="" method="post">
+   <p >DE:</p> <input class="form-control" style="margin-left: 10px;" type="date" name="data_inicial" value="<?= $data_inicial ?>">
+    <p >ATÉ:</p> <input class="form-control" style="margin-left: 10px;"s type="date" name="data_final" value="<?= $data_final ?>">
+
+    <button style="margin-left: 10px;" class="btn btn-primary" type="submit">Buscar</button>
+  </form>
+  </div>
         <div class="tb_search">
         <input type="text" id="search_input_all" onkeyup="FilterkeyWord_all_table()" placeholder="Search.." class="form-control">
         </div>
       </div>
+      </div>
       <table class="table table-striped table-class" id= "table-id">
   
 	
+      <script>
+    window.onload = function() {
+      // Obtém a referência para a tabela
+      var tabela = document.getElementById("minhaTabela");
+
+      // Obtém todas as células da tabela
+      var celulas = tabela.getElementsByTagName("td");
+
+      // Loop pelas células
+      for (var i = 0; i < celulas.length; i++) {
+        // Verifica se o texto da célula contém a palavra "Coletado"
+        if (celulas[i].innerText.indexOf("Coletado") !== -1) {
+          // Adiciona a classe "destacado" à célula
+          celulas[i].classList.add("destacado");
+        } else if (celulas[i].innerText.indexOf("Cancelado") !== -1) {
+          // Adiciona a classe "destacado" à célula
+          celulas[i].classList.add("destacado1");
+        } else if (celulas[i].innerText.indexOf("Não coletado (cliente)") !== -1) {
+          // Adiciona a classe "destacado" à célula
+          celulas[i].classList.add("destacado2");
+        } else if (celulas[i].innerText.indexOf("Não coletado (VB)") !== -1) {
+          // Adiciona a classe "destacado" à célula
+          celulas[i].classList.add("destacado3");
+        }
+      }
+    };
+  </script>
+
+
   <thead>
   <tr>
   <th>Coleta</th>
@@ -136,30 +167,30 @@
                   Ações
                 </button>
                 <ul id="action-ul" class="dropdown-menu">
-                  <li>
-                    <button id="btn-icons" style="border: none;align-items: center;" class="d-flex justify-content-center w-100 border-none" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop<?= $coleta['id'] ?>">
+                  <li class="d-grid justify-content-center">
+                    <button id="btn-icons" style="border: none;align-items: center;" class=" mb-1 w-100 btn btn-primary border-none" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop<?= $coleta['id'] ?>">
                      Feedback
                     </button>
-                    <form class="edit-form" target="_blank" action="../../ordem_coleta.php" method="post">
+                    <form class="edit-form" target="_blank" action="ordem_coleta.php" method="post">
                       <input type="hidden" name="id_coleta" value="<?= $coleta['id'] ?>">
-                      <button id="btn-icons" type="submit"> Imprimir</button>
+                      <button class="w-100 btn btn-primary mb-1 border-none" id="btn-icons" type="submit"> Imprimir</button>
                     </form>
                     <form target="_blank" class="edit-form" action="consultar_coleta.php" method="post">
                       <input type="hidden" name="id_coleta" value="<?= $coleta['id'] ?>">
-                      <button onclick="abrirLink()" id="btn-icons" type="submit"> Consultar</button>
+                      <button class="w-100 btn btn-primary mb-1  border-none" onclick="abrirLink()" id="btn-icons" type="submit"> Consultar</button>
                     </form>
                     <form class="edit-form" action="editar_coleta.php" method="post">
                       <input type="hidden" name="id_coleta" value="<?= $coleta['id'] ?>">
-                      <button id="btn-icons" type="submit"> Editar</button>
+                      <button class="w-100 btn btn-primary mb-1  border-none" id="btn-icons" type="submit"> Editar</button>
                     </form>
                     <form class="edit-form" action="finalizar_coleta.php" method="post">
                       <input type="hidden" name="id_coleta" value="<?= $coleta['id'] ?>">
-                      <button id="btn-icons" type="submit"> Finalizar</button>
+                      <button class="w-100 btn btn-success mb-1  border-none" id="btn-icons" type="submit"> Finalizar</button>
                     </form>
-                    <form class="edit-form" action="../../../functions/coletas/editar_coleta.php" method="post">
+                    <form class="edit-form" action="functions/coletas/editar_coleta.php" method="post">
                       <input type="hidden" name="id_coleta" value="<?= $coleta['id'] ?>">
                       <input type="hidden" name="tipo_edicao" value="cancelar_coleta">
-                      <button id="btn-icons" type="submit"> Cancelar</button>
+                      <button class="w-100 btn btn-danger mb-1  border-none" id="btn-icons" type="submit"> Cancelar</button>
                     </form>
                   </li>
                 </ul>

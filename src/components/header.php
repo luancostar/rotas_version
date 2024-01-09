@@ -244,7 +244,7 @@
                                 <div class="col">
                                     <div class="mt-md-0 py-3 px-4 mx-2">
                                         <p class="text-white-50 mb-2 text-truncate">Coletas Registradas</p>
-                                        <h3 class="text-white mb-0">197</h3>
+                                        <h3 class="text-white mb-0">100 </h3>
                                     </div>
                                 </div><!-- end col -->
 
@@ -258,7 +258,7 @@
                                 <div class="col">
                                     <div class="mt-3 mt-md-0 py-3 px-4 mx-2">
                                         <p class="text-white-50 mb-2 text-truncate">Coletas Manuais</p>
-                                        <h3 class="text-white mb-0">60</h3>
+                                        <h3 class="text-white mb-0">50</h3>
                                     </div>
                                 </div><!-- end col -->
 
