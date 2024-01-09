@@ -30,7 +30,8 @@
         <div class="main-content">
             <div class="page-content">
                 <div class="container-fluid">
-            <?php include 'components/table.php';?>
+                    
+                <?php include 'components/table.php';?>
            
                        
                 </div>
