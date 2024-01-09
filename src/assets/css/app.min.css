@@ -220,17 +220,7 @@ table.dataTable thead .sorting_desc_disabled:before {
   .pagination li:hover{
       cursor: pointer;
   }
-  #td--small{
-    background-image: url(images/note.png);
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 2px;
-    border-radius: 100%;
-    font-size: 9px;
-    color: #000;
-    background-position: center;
-    background-size: 25px;
-  }
+ 
   .header_wrap {
     padding:30px 0;
   }

@@ -119,7 +119,7 @@
             </td>
             <style>
               small {
-                background-image: url( images/note.png);
+                background-image: url(images/note.png);
                 padding-left: 5px;
                 padding-right: 5px;
                 padding-bottom: 2px;
